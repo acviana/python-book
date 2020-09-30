@@ -26,7 +26,17 @@ Code Level
 
 Python has a set of conventions and best practices that roughly captured in a document called [PEP8](link). While reading this document is useful, where ever possible we want to automate work and remove decision making.
 
-Black is a relatively new tool which we can use to automatically and consistently format our code in the a way that is consistent with the best practices of the Python community. 
+Black is a relatively new tool which we can use to automatically and consistently format our code in the a way that is consistent with the best practices of the Python community.
+
+## Parts of Python: F-Strings
+
+Throughout this text we will make use a string concatenation feature called _f-strings_. Introduced in Python 3.6 [f-strings](https://www.python.org/dev/peps/pep-0498/) replace the `%` operator, the `.format` method, and the more common method of just adding a bunch of strings together. Here are a few examples of what you can do with f-strings:
+
+```python
+>>> my_name = "Bob"
+>>> print(f"My name is {my_name}")
+My name is Bob
+```
 
 ## Parts of Python: Dictionaries
 
