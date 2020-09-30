@@ -18,6 +18,10 @@ This highly motivated and self-taught individual, not quite an engineer but need
 
 TODO: reformat as list of good and bad software.
 
+TODO: A note on the utility and limitations of spreadsheets
+
+TODO: What this text is not
+
 Code Level
 
 Python has a set of conventions and best practices that roughly captured in a document called [PEP8](link). While reading this document is useful, where ever possible we want to automate work and remove decision making.
