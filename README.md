@@ -37,9 +37,9 @@ Self-directed study in this area can be frustration as well.
 Search results for learning how to code to be overly basic intros to Python, too focused on computer science fundamentals like implementing sorting algorithms from scratch.
 How can you make your code just better? What does better even look like?
 
-This highly motivated and self-taught individual, not quite an engineer but needing the best light-weight solutions from that field, is whom is book is intended for.
-This book sets out to present a path for reworking projects from the ground up to be simpler, more maintainable, and more reliable.
-This book is not intended to teach you to be a software engineer, nor do you need to be to write high-performing analytical software.
+This highly motivated and self-taught individual, not quite an engineer but needing the best light-weight solutions from that field, is whom is text is intended for.
+This text sets out to present a path for reworking projects from the ground up to be simpler, more maintainable, and more reliable.
+This text is not intended to teach you to be a software engineer, nor do you need to be to write high-performing analytical software.
 Indeed, most engineers, lacking an analysts domain knowledge and analytical tools, could not execute one of these analytics projects without outside help.
 Really, having most of what they need to move forward, this text aims to give the reader the rest of what they need to create high performing analytic project.
 
