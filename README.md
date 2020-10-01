@@ -161,13 +161,20 @@ We can make our functions more useful by making some of those strings _parameter
 For Example:
 
 ```python
-my_function(parameter):
-	pass
+def count_letters(word):
+    return f"{word} has {len(word)} letters"
 
-my_function("foo")
-
-my_function("bar")
+print(count_letters("foo"))
+print(count_letters("bar"))
 ```
+
+Now the output looks like this:
+
+```
+foo has 3 letters
+bar has 3 letters
+```
+
 
 ### One Thing At A Time: Single-Purpose Functions
 
