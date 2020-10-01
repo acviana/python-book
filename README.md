@@ -100,10 +100,17 @@ This leads to clearer code and less bugs.
 
 ## Parts of Python: Functions
 
+Functions have the following benefits:
+
+ - They encapsulate code and provide name spaces
+ - They allow us to create abstractions
+ - They allow for standard documentation
+ - They allow code to be reusable
+ - They allow code to be multipurpose
+
 ### Definition vs Execution: An Intro to Functions
 
 Functions are a way of wrapping blocks of related code into a reusable format.
-Writing code in functions comes more naturally to engineers than to analysts.
 Functions are not a difficult concept to understand in terms of syntax.
 However, most analysts struggle to immediately see the application, that is the value, of functions.
 Here is an example:
