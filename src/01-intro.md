@@ -8,12 +8,43 @@ You're pretty sure it's right but you have nagging doubts.
 You know that the project could be better ...
 but how? What's missing?
 
-# Who Is This Book For?
+# Outline
 
-This book is intended for anyone for who has found themselves maintaining a code base in Python without training in software development best practices.
+ - Introduction
+   - Who is this text for?
+   - What are we trying to do?
+   - What are we not trying to do?
+ - In the Notebook
+   - Python Odds and Ends
+     - F-Strings
+     - Dictionaries
+     - Formatting, PEP8, and Black
+   - Functions
+     - Why functions?
+     - Single-Purpose Functions
+     - Parameterized Functions
+     - Main functions
+   - Docstrings
+ - In the Project
+    - Command Line Basics
+    - Version Control
+      - Git basics
+      - Remote Repositories
+    - Modules
+      - Intro to Python Modules
+      - if \_\_name\_\_ == "\_\_main\_\_"
+    - Testing
+    - MakeFiles
+
+# Who Is This text For?
+
+This text is intended for anyone for who has found themselves maintaining a code base in Python without training in software development best practices.
 Frequently these people are data scientists, analysts, academics, or students with backgrounds in areas other than computer science.
-For the purposes of this book I will refer to all of these people are "analysts".
+For the purposes of this text I will refer to all of these people are "analysts".
 
+One of the distinguishing features of analysts is that they tend to work on projects that have singular outputs. Did this trial show an improved drug resistance? Is there a trend in our year-over-year sales data? Which zip codes had the highest incidents of home sales? For many analysts it's tempting to think of these tasks as one-offs. They may be tasks that require coding but they are not _software projects_ (so they think).
+
+Contrast this with the work of a software engineer. They are not just building an webpage or a software package, they are building a multipurpose tool that be used repeatedly.
 
 The types of software projects (and they are software projects) that these "analysts" run tend to have common attributes.
 They tend to be analytical in nature (hence our blanket terminology) producing some sort of data-related output such as a dataset or a set of plots.
