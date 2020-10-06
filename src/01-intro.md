@@ -1,5 +1,14 @@
 # High Performing Analytical Projects in Python
 
+```
+And you may ask yourself
+"Am I right? Am I wrong?"
+And you may say to yourself
+"My God! What have I done?"
+
+ - Talking Heads
+```
+
 You're working on a major data project for your company.
 What started as an off-hand request has turned into a months-long project that's produced a Jupyter Notebook thousands of lines long.
 Despite being high-impact this project only runs on your laptop.
