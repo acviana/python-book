@@ -18,7 +18,7 @@ Here is an example:
 
 ```python
 def my_function():
-	return "Hello"
+    return "Hello"
 
 my_response = my_function()
 print(my_response)
@@ -40,7 +40,7 @@ Instead we want to separate two concept here: _defining_ our code and _executing
 
 ```python
 def my_function():
-	pass
+    pass
 
 my_function()
 ```
@@ -77,16 +77,16 @@ bar has 3 letters
 
 ```python
 def two_things_at_once():
-	pass
+    pass
 ```
 
 ```python
 def load_data():
-	pass
+    pass
 
 
 def filter_data():
-	pass
+    pass
 
 raw_data = load_data()
 filtered_data = filter_data(raw_data)

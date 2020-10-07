@@ -23,7 +23,7 @@ My name is Bob
 
 As a rule of thumb you should use a dictionary any time you are working with data where you reference things by name.
 You should use a list any time you reference things by other.
-Here is a classic example I see all the time: 
+Here is a classic example I see all the time:
 
 ```python
 person = ["Mike", "Smith", "123 Pine Street"]
@@ -32,15 +32,15 @@ print(f"They live on {person[2]}")
 ```
 
 While this works, it can quickly become awkward.
-100 lines later, how am I supposed to remember if index `0` is the first name or the last name? Will I remember this a month from now? Will someone else working on this code be able to come to the same conclusion? 
+100 lines later, how am I supposed to remember if index `0` is the first name or the last name? Will I remember this a month from now? Will someone else working on this code be able to come to the same conclusion?
 
 Let's try the same example instead with a dictionary.
 
 ```python
 person = {
-	"first_name": "Mike",
-	"last_name": "Smith",
-	"address": "123 Pine Street",
+    "first_name": "Mike",
+    "last_name": "Smith",
+    "address": "123 Pine Street",
 }
 print(f"This person is named {person['first_name']} {person['last_name']}")
 print(f"They live on {person['address']}")
