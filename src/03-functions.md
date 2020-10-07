@@ -91,3 +91,19 @@ def filter_data():
 raw_data = load_data()
 filtered_data = filter_data(raw_data)
 ```
+
+## Docstrings
+
+Let's look at an example:
+
+```python
+def fahrenheit_to_celsius(temp_f):
+    """
+    Args:
+        temp_f (float): Temperature in fahrenheit.
+
+    Returns:
+        (float): Temperature in Celsius.
+    """
+    return (temp_f - 32) / 1.8
+```
