@@ -8,7 +8,7 @@ Functions have the following benefits:
  - They allow code to be reusable
  - They allow code to be multipurpose
 
-### Definition vs Execution: An Intro to Functions
+## Definition vs Execution: An Intro to Functions
 
 Functions are a way of wrapping blocks of related code into a reusable format.
 Functions are not a difficult concept to understand in terms of syntax.
@@ -30,7 +30,7 @@ While this is neat, why is this better than simply writing `print("Hello")`? We'
 Let's consider the following code block:
 
 ```python
-import pandas as pd 
+import pandas as pd
 
 # Whatever
 ```
@@ -52,9 +52,7 @@ A tool that can be reused, improved, and even replaced at some point.
 Conceptually, we've also created a framework that allows us to start thinking in abstractions.
 For example if we were writing a data engineering pipeline we might have the 3 classic parts of an ETL pipeline: extraction, transformation, and loading.
 
-
-
-### Building Better Tools: Parameterizing Functions
+## Parameterized Functions
 
 In our last example you'll notice that our code only did one thing with all the values "hard coded" as strings in the function definition.
 We can make our functions more useful by making some of those strings _parameters_ that can be dynamically specified where ever the function is called.
@@ -75,8 +73,7 @@ foo has 3 letters
 bar has 3 letters
 ```
 
-
-### One Thing At A Time: Single-Purpose Functions
+## Single-Purpose Functions
 
 ```python
 def two_things_at_once():
