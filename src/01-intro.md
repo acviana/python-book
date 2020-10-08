@@ -51,9 +51,14 @@ This text is intended for anyone for who has found themselves maintaining a code
 Frequently these people are data scientists, analysts, academics, or students with backgrounds in areas other than computer science.
 For the purposes of this text I will refer to all of these people are "analysts".
 
-One of the distinguishing features of analysts is that they tend to work on projects that have singular outputs. Did this trial show an improved drug resistance? Is there a trend in our year-over-year sales data? Which zip codes had the highest incidents of home sales? For many analysts it's tempting to think of these tasks as one-offs. They may be tasks that require coding but they are not _software projects_ (so they think).
+One of the distinguishing features of analysts is that they tend to work on projects that have singular outputs.
+Did this trial show an improved drug resistance? 
+Is there a trend in our year-over-year sales data? Which zip codes had the highest incidents of home sales? 
+For many analysts it's tempting to think of these tasks as one-offs.
+They may be tasks that require coding but they are not _software projects_ (so they think).
 
-Contrast this with the work of a software engineer. They are not just building an webpage or a software package, they are building a multipurpose tool that be used repeatedly.
+Contrast this with the work of a software engineer.
+They are not just building an webpage or a software package, they are building a multipurpose tool that be used repeatedly.
 
 The types of software projects (and they are software projects) that these "analysts" run tend to have common attributes.
 They tend to be analytical in nature (hence our blanket terminology) producing some sort of data-related output such as a dataset or a set of plots.
