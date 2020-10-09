@@ -94,6 +94,9 @@ filtered_data = filter_data(raw_data)
 
 ## Docstrings
 
+Functions are also a useful organizational unit for documentation.
+Python functions allow for a special kind of annotation called a _docstring_.
+Like their name implies docstrings are multiline strings right after the definition line of a function.
 Let's look at an example:
 
 ```python
@@ -107,3 +110,8 @@ def fahrenheit_to_celsius(temp_f):
     """
     return (temp_f - 32) / 1.8
 ```
+
+As we have already seen Python allows us broad stylistic flexability but sticking to conventions allows us to take advantages of best practices as well as creating code that is easily understood by the broader Python community.
+There is more variance in docstring conventions that some of the other areas we've covered but a common convention we suggest following is the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#383-functions-and-methods).
+It's the same convention I followed in the example above.
+It has the benefit of being easily human-readible but as we will see in future chapters, it's can easily be parsed by machines as well to create automatically generated documentation.
